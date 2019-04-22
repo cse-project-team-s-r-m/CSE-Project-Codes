@@ -52,7 +52,7 @@ void get_dressed(int tmp[],int x,int unavailable[],int ucount)
     }
     if(ucount>0)
     {
-        printf("Unavailable closet are:\n");
+        printf("These clothes are unavailable:\n");
         for(y=0;y<ucount;y++)
         {
             printf("%s\n",closet[unavailable[y]]);
